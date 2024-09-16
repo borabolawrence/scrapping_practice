@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Scraper</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="modal.css">
 </head>
 <body>
   <div class="container">
@@ -16,5 +17,26 @@
       <button type="submit">Download Excel</button>
     </form>
   </div>
+
+  <button id="howToUse" class="how-to-use">How to Use</button>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>How to Use the Scraper</h2>
+      </div>
+      <div class="modal-body">
+        <p>Step 1: go to <a href="https://pchubonline.com/" target="_blank">https://pchubonline.com/</a></p>
+        <p>Step 2: Select Category</p>
+        <p>Step 3: For example processors in the URL it has <code>category=1</code></p>
+        <p>Step 4: To fetch all those products, insert <code>1</code> in the input field and click the "Download Excel" button</p>
+      </div>
+      <div class="modal-footer">
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="modal.js"></script>
 </body>
 </html>
