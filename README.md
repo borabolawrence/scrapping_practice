@@ -13,7 +13,3 @@ The primary goal of this script is to:
 
 **Note:** This script is solely for **educational purposes**. It does not intend to harm or misuse any data from the target website.
 
-## Dependencies
-Install the necessary dependencies using:
-```bash
-pip install requests beautifulsoup4 pandas openpyxl
